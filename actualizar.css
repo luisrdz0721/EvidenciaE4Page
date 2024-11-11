@@ -1,0 +1,58 @@
+/* Estilos para los formularios de actualización */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+h1, h3 {
+    color: #333;
+}
+
+.actualizar-form input[type="text"],
+.actualizar-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.actualizar-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 8px 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+a:hover {
+    color: #45a049;
+}
